@@ -1,0 +1,9 @@
+experiment with simple image clustering in python
+eg
+python clusterimages -show testimages
+	  ..to immediately show results
+
+python clusterimages testimages > output.json
+	.. to dump the clustered image filenames as JSON data (nested arrays):-
+
+doesn't yet emit the cluster centres, they are the centroids of the contained data ('blur them all together') but they're shown in immiediate mode
